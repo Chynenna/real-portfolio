@@ -1,0 +1,12 @@
+/*font-family: 'Cinzel Decorative', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
+h1{
+    font-size: 48px;
+    color: aquamarine;
+    font-family: 'Cinzel Decorative', cursive;
+}
+p{
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
