@@ -7,12 +7,16 @@ font-family: 'Quicksand', sans-serif;*/
 }
 body {
     font-family: var(--default-font);
+    margin-bottom: 50px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
+p {
+    line-height: 1.5;
+}
 .hello-there p {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 100px;
 }
 h1 {
@@ -30,8 +34,43 @@ h2 {
     color: white;
     text-decoration: none;
 }
+.hello-there a:hover {
+    transition: 0.5s;
+    color: #b492b5;
+    background-color: white;
+}
 .hello-there {
     text-align: center;
     background-color: #f9edf8;
     padding-bottom: 90px;
+}
+.project-button {
+    padding: 15px 30px;
+    border: 1px solid #b492b5;
+    border-radius: 4px;
+    color: #b492b5;
+    text-decoration: none;
+}
+.project-button:hover {
+    color: white;
+    background-color: #b492b5;
+    transition: 0.5s;
+}
+.project-description {
+    padding: 100px 60px;
+}
+@media (max-width: 960px) {
+    h1 {
+        font-size: 45px;
+    }
+    .project-description {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .hello-there {
+        padding-bottom: 45px;
+    }
+    .hello-there p {
+        padding-top: 50px;
+    }
 }
