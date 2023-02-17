@@ -22,9 +22,8 @@ p {
 h1 {
     font-size: 65px;
 }
-h2 {
+.hello-there, .project-description h2 {
     margin-bottom: 40px;
-    font-size: 30px;
 }
 .hello-there a {
     padding: 15px 30px;
@@ -44,6 +43,13 @@ h2 {
     background-color: #f9edf8;
     padding-bottom: 90px;
 }
+.about-section h1 {
+    font-size: 64px;
+    line-height: 1;
+}
+.about-section h2 {
+    font-size: 18px;
+}
 .project-button {
     padding: 15px 30px;
     border: 1px solid #b492b5;
@@ -59,6 +65,18 @@ h2 {
 .project-description {
     padding: 100px 60px;
 }
+.project-description h2 {
+    font-size: 30px;
+}
+.about-section {
+    padding: 160px 20px;
+}
+.about-picture {
+    max-width: 500px;
+}
+.about-section a {
+    padding: 15px 30px;
+}
 @media (max-width: 960px) {
     h1 {
         font-size: 45px;
@@ -72,5 +90,9 @@ h2 {
     }
     .hello-there p {
         padding-top: 50px;
+    }
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
 }
