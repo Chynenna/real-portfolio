@@ -22,6 +22,9 @@ p {
 h1 {
     font-size: 65px;
 }
+h5 {
+    font-size: 30px;
+}
 nav {
     padding: 10px 0;
 }
@@ -129,6 +132,44 @@ li .active {
 }
 .content {
     text-align: center;
+}
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background-color: #f4f2f4;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box p {
+    margin: 0;
+}
+footer .email-link {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover {
+    color: #b492b5;
+    transition: 400ms;
+}
+.social-networks {
+    text-align: center;
+}
+footer .social-networks a {
+    margin: 0 20px;
+    color: #b492b5;
+    font-size: 18px;
+    padding: 10px 14px;
+    background-color: #f4f2f4;
+    border-radius: 50%;
+}
+footer .social-networks a:hover {
+    color: white;
+    background: #b492b5;
+    transition: all 500ms ease-in-out;
 }
 @media (max-width: 960px) {
     h1 {
