@@ -22,6 +22,37 @@ p {
 h1 {
     font-size: 65px;
 }
+nav {
+    padding: 10px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #A9A6A0;
+}
+nav a:hover {
+    transition: all 400ms ease-in-out;
+    color: #ED629E;
+}
+nav h4 {
+    margin: 0;
+    line-height: 1.5;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    padding-right: 15px;
+}
+li .active {
+    color: #ED629E;
+}
+.logo {
+    font-family: var(--default-font);
+}
 .hello-there, .project-description h2 {
     margin-bottom: 40px;
 }
